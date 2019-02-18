@@ -1,3 +1,6 @@
+#
+# Docker-compose for geoserver dh.unica.it
+#
 version: '2.2'
 
 services:
