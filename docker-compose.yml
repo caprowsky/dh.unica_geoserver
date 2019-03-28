@@ -16,7 +16,7 @@ services:
     links:
       - postgis
     ports:
-      - "8080:8080"
+      - "80:8080"
     volumes:
       #- /srv/docker/geoserver/geoserver:/geoserver_data/data
       - /var/run/docker.sock:/var/run/docker.sock
